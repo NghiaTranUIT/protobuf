@@ -27,7 +27,8 @@ Pod::Spec.new do |s|
                     'src/google/protobuf/compiler/mock*.{h,cc}',
                     'src/google/protobuf/compiler/test*.{h,cc}',
                     'src/google/protobuf/compiler/*_test_util.{h,cc}',
-                    'src/google/protobuf/compiler/*_unittest.{h,cc}'
+                    'src/google/protobuf/compiler/*_unittest.{h,cc}',
+                    'src/google/protobuf/compiler/main.{h,cc}'
 
   s.header_mappings_dir = 'src'
 

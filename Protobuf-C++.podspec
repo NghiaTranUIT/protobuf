@@ -14,7 +14,9 @@ Pod::Spec.new do |s|
                    'src/google/protobuf/stubs/*.{h,cc}',
                    'src/google/protobuf/io/*.{h,cc}',
                    'src/google/protobuf/util/*.{h,cc}',
-                   'src/google/protobuf/util/internal/*.{h,cc}'
+                   'src/google/protobuf/util/internal/*.{h,cc}',
+                   'src/google/protobuf/compiler/*.{h,cc}',
+                   'src/google/protobuf/compiler/cpp/*.{h,cc}'
 
   # Excluding all the tests in the directories above
   s.exclude_files = 'src/google/**/*_test.{h,cc,inc}',
